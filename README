@@ -1,0 +1,16 @@
+Installation du module :
+
+- cd ControlM-EM-InterfaceViaDBMS
+- perl Makefile.PL
+- make
+- make install
+
+Desinstallation du module :
+
+- chmod +x ControlM-EM-InterfaceViaDBMS/misc/goodies/uninstall_perl_module/*
+- ControlM-EM-InterfaceViaDBMS/misc/goodies/uninstall_perl_module/uninstall_perl_module.pl ControlM::EM::InterfaceViaDBMS
+
+Test du module :
+
+- chmod +x ControlM-EM-InterfaceViaDBMS/misc/goodies/exemples/test_module.pl
+- ControlM-EM-InterfaceViaDBMS/misc/goodies/exemples/test_module.pl
